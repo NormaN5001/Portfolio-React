@@ -2,6 +2,12 @@ import React from 'react'
 import styled from 'styled-components';
 
 import MyPhotoImg from '../../img/photo.png'
+import PhoneImg from '../../img/phone.png'
+import InstagramImg from '../../img/instagram.png'
+import EmailImg from '../../img/email.png'
+import SmileImg from '../../img/smile.png'
+
+
 
 export default function About(){
 
@@ -113,8 +119,20 @@ const TextAboutMe = styled.p`
 `
 const Networks = styled.div`
   border: solid 2px peru;
+  display: flex;
 `
-
+const Name = styled.div`
+  
+`
+const Email = styled.div`
+  
+`
+const Instagram = styled.div`
+  
+`
+const Phone = styled.div`
+  
+`
 
 
   return(
@@ -133,7 +151,28 @@ const Networks = styled.div`
       <AboutMe>
         <h2>Sobre mim</h2>
         <TextAboutMe>Olá, eu me chamo Nicolas Goulart, tenho 18 anos e sou de uma pequena cidade do estado de Minas Gerais. Atualmente estou cursando o 3° ano Ensino Médio e estudando sobre React JS. Sou desenvolvedor web Júnior, com experiência em HTML5, CSS3 e Photoshop.</TextAboutMe>
-        <Networks></Networks>
+        <Networks>
+          <Name>
+            <img src={SmileImg} alt=""/>
+            <h4>Meu Nome</h4>
+            <p>Nicolas Goulart</p>
+          </Name>
+          <Email>
+            <img src={EmailImg} alt=""/>
+            <h4>Email</h4>
+            <p>nicolasgoulart5001@gmail.com</p>
+          </Email>
+          <Instagram>
+            <img src={InstagramImg} alt=""/>
+            <h4>Instagram</h4>
+            <p>@nicolas__g0ulart</p>
+          </Instagram>
+          <Phone>
+            <img src={PhoneImg} alt=""/>
+            <h4>Telefone</h4>
+            <p>(32)98477-0122</p>
+          </Phone>
+        </Networks>
       </AboutMe>
 
     </>
