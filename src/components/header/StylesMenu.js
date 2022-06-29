@@ -1,9 +1,6 @@
-import React from 'react'
 import styled from 'styled-components';
 
-export default function MenuMobile(){
-
-const Menu = styled.section`
+export const Menu = styled.section`
   z-index: 1;
 
   position: absolute;
@@ -19,7 +16,7 @@ const Menu = styled.section`
     height: 330px;
   }
 `
-const Navegation = styled.nav`
+export const Navegation = styled.nav`
   width: 100%;
   height: 100%;
   @media(max-width: 500px){
@@ -38,7 +35,7 @@ const Navegation = styled.nav`
     }
   }
 `
-const Items = styled.li`
+export const Items = styled.li`
   text-align: center;
   background-color: hotpink;
   border-radius: 20px;
@@ -68,18 +65,3 @@ const Items = styled.li`
     width: 100%;
   }
 `
-
-  return(
-    <>
-    <Menu>
-      <Navegation>
-          <ul>
-            <Items>Sobre mim</Items>
-            <Items>Projetos</Items>
-            <Items>Minhas skills</Items>
-          </ul>
-        </Navegation>
-    </Menu>
-    </>
-  )
-}
