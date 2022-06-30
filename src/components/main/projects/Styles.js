@@ -18,61 +18,52 @@ export const BoxProject = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   margin-top: 40px;
   width: 440px;
-  height: 265px;
+  height: 280px;
   background-color: #212121;
   border: solid #333333 1px;
 
-  img{
+  section{
     cursor: pointer;
-    transition: 0.7s;
-    width: 400px;
-    height: 210px;
-    &:hover{
-      width: 438px;
-      height: 230px; 
-    }
+    background-color: #181818;
+    width: 390px;
+    height: 150px;
+    margin-top: 20px;
   }
   h3{
     color: #f9f9f9;
     margin-top: 5px;
   }
-`
-export const Box = styled.div`
-  transition: 0.7s;
-  position: absolute;
-  background-color: #202020;
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  h3{
-    position: absolute;
-    top: 10px;
-  }
-  p{
-    color: #828282;
-    font-size: 15px;
-  }
   button{
     border-style: none;
-    background-color: hotpink;
+    background-color: #181818;
     cursor: pointer;
     font-size: 18px;
     font-weight: 600;
     transition: 0.4s;
-
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 45px;
+    color: #212121;
     &:hover{
       background-color: #e84998;
     }
+  }
+`
+export const Box = styled.div`
+  background-color: #181818;
+  position: absolute;
+  width: 440px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  h4{
+    color: #F9F9F9;
+    font-size: 23px;
+  }
   }
 `
