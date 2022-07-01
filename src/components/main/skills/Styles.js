@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 export const SkillsSection = styled.section`
   margin-top: 130px;
-  border: solid white 2px;
-  
 `
 export const TitleBox = styled.h3`
   text-align: center;

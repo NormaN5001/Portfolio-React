@@ -11,7 +11,6 @@ export const ProjectsSection = styled.section`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  border: solid green 2px;
 `
 export const BoxProject = styled.div`
   position: relative;

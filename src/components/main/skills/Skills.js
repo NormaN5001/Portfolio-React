@@ -25,7 +25,7 @@ export default function Skills(){
         </S.BackgroundImg>
         <S.BackgroundImg>
           <img src={ReactImg} alt="Logo da tecnologia React JS"/>
-        S.</S.BackgroundImg>
+        .</S.BackgroundImg>
         </S.SkillsImage>
       </S.SkillsSection>
     </>

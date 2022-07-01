@@ -98,6 +98,9 @@ export const Networks = styled.div`
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  a{
+    text-decoration: none;
+  }
 `
 export const Name = styled.div`
   cursor: pointer;
