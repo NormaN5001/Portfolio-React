@@ -37,7 +37,7 @@ export const BoxProject = styled.div`
   }
   button{
     border-style: none;
-    background-color: #181818;
+    background-color: hotpink;
     cursor: pointer;
     font-size: 18px;
     font-weight: 600;
@@ -53,7 +53,7 @@ export const BoxProject = styled.div`
 export const Box = styled.div`
   background-color: #181818;
   position: absolute;
-  width: 440px;
+  width: 438px;
   height: 280px;
   display: flex;
   flex-direction: column;
@@ -61,8 +61,12 @@ export const Box = styled.div`
   justify-content: space-between;
 
   h4{
+    margin-top: 20px;
     color: #F9F9F9;
     font-size: 23px;
   }
+  p{
+    color: #F9F9F9;
+    text-align: center;
   }
 `
