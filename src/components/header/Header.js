@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { CSSTransition } from 'react-transition-group';
 import * as S from './StylesHeader'
 import MenuMobile from './MenuMobile'
 
@@ -25,8 +24,6 @@ export default function Header(){
           </ul>
         </S.Navegation>
 
-        <CSSTransition
-              timeout={5000}>
         <S.MenuHamburguer onClick={()=>{DropDown()} }>
           <S.LineBox>
             <div></div>
@@ -35,7 +32,6 @@ export default function Header(){
           </S.LineBox>
           {menu && <MenuMobile/>}
         </S.MenuHamburguer>
-        </CSSTransition>
       </S.HeaderSection>
     </>
   )

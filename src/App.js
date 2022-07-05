@@ -25,6 +25,9 @@ const Container = styled.section`
   @media(max-width: 1440px){
     margin: 0 5vw 0 5vw;
   }@media(max-width: 1024px){
+    margin: 0 30px 0 30px;
+  }
+  @media(max-width: 500px){
     margin: 0;
   }
 `

@@ -4,17 +4,36 @@ export const Start = styled.section`
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
+  @media(max-width: 500px){
+    display: flex;
+    justify-content: center;
+  }
 `
 export const Infos = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `
 export const TitleBox = styled.h1`
   color: #f9f9f9;
   font-size: 36px;
+  @media(max-width: 500px){
+    text-align: center;
+  }
+  @media(max-width: 455px){
+    font-size: 30px;
+  }
 `
 export const TextBox = styled.p`
   margin-top: 20px;
   color: #828282;
   font-size: 23px;
+  @media(max-width: 455px){
+    font-size: 17px;
+  }
+`
+export const Buttons = styled.div`
+  
 `
 export const GitButton = styled.button`
   margin-top: 20px;
@@ -29,6 +48,9 @@ export const GitButton = styled.button`
   &:hover{
     cursor: pointer;
     background-color: #e84998;
+  }
+  @media(max-width: 455px){
+    width: 120px;
   }
 `
 export const WhatsAppButton = styled.button`
@@ -46,6 +68,9 @@ export const WhatsAppButton = styled.button`
     cursor: pointer;
     background-color: #1c1c1c;
   }
+  @media(max-width: 455px){
+    width: 120px;
+  }
 `
 export const Image = styled.div`
   display: flex;
@@ -59,6 +84,9 @@ export const Image = styled.div`
   &:hover{
     background-color: hotpink;
     transform: rotate(-4deg);
+  }
+  @media(max-width: 768px){
+    display: none;
   }
 `
 export const MyPhoto = styled.img`
@@ -82,6 +110,9 @@ export const AboutMe = styled.section`
     color: #F9F9F9;
     font-size: 32px;
     font-weight: 600;
+    @media(max-width: 455px){
+      font-size: 27px;
+    }
   }
 `
 export const TextAboutMe = styled.p`
@@ -91,6 +122,7 @@ export const TextAboutMe = styled.p`
   font-size: 18px;
   font-weight: 400;
   padding: 0 12vw 0 12vw;
+
 `
 export const Networks = styled.div`
   margin-top: 70px;

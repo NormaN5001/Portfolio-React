@@ -6,6 +6,10 @@ export const TitleBox = styled.h3`
   color: #F9F9F9;
   font-weight: 600;
   font-size: 36px;
+  @media(max-width: 455px){
+    margin-top: 100px;
+    font-size: 27px;
+  }
 `
 export const ProjectsSection = styled.section`
   display: flex;
@@ -30,10 +34,19 @@ export const BoxProject = styled.div`
     width: 390px;
     height: 150px;
     margin-top: 20px;
+    @media(max-width: 455px){
+    margin-top: 10px;
+    width: 280px;
+    height: 120px;
+  }
   }
   h3{
     color: #f9f9f9;
     margin-top: 5px;
+    @media(max-width: 455px){
+      margin: 0;
+      font-size: 16px;
+    }
   }
   button{
     border-style: none;
@@ -48,6 +61,14 @@ export const BoxProject = styled.div`
     &:hover{
       background-color: #e84998;
     }
+    @media(max-width: 455px){
+      height: 35px;
+      font-size: 16px;
+    }
+  }
+  @media(max-width: 455px){
+    width: 300px;
+    height: 210px;
   }
 `
 export const Box = styled.div`
@@ -64,9 +85,32 @@ export const Box = styled.div`
     margin-top: 20px;
     color: #F9F9F9;
     font-size: 23px;
+    @media(max-width: 455px){
+      font-size: 18px;
+    }
   }
   p{
     color: #F9F9F9;
     text-align: center;
+    @media(max-width: 455px){
+      font-size: 16px;
+    }
+  }
+  div{
+    display: flex;
+    width: 100%;
+
+    button{
+      width: 50%;
+      border: 1px solid #181818;
+      a{
+        text-decoration: none;
+        color: #212121;
+      }
+    }
+  }
+  @media(max-width: 455px){
+    width: 298px;
+    height: 210px;
   }
 `

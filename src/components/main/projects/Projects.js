@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import * as S from './Styles'
 
-import JordanSite from '../../../img/project-jordanshoes.png'
 
 export default function Projects(){
 
@@ -25,7 +24,10 @@ export default function Projects(){
             <h4>Jordan Shoes</h4>
             <p>Jordan Shoes é um site fictício sobre um e-commerce de tênis.</p>
             <p>Desenvolvido com React JS.</p>
-            <button onClick={()=>{setProject1(!project1)}}>Voltar</button>
+            <div>
+              <button onClick={()=>{setProject1(!project1)}}>Voltar</button>
+              <button>Acessar</button>
+            </div>
           </S.Box>}
         </S.BoxProject>
 
@@ -37,7 +39,10 @@ export default function Projects(){
             <h4>Home You</h4>
             <p>Home You é um site fictício, criado com o intuito de simular venda ou alugueis de casas e apartamentos.</p>
             <p>Desenvolvido com React JS.</p>
-            <button onClick={()=>{setProject2(!project2)}}>Voltar</button>
+            <div>
+              <button onClick={()=>{setProject2(!project2)}}>Voltar</button>
+              <button>Acessar</button>
+            </div>
           </S.Box>}
         </S.BoxProject>
 
@@ -49,7 +54,10 @@ export default function Projects(){
             <h4>Food JP</h4>
             <p>FoodJP é um site fictício, sobre um site de delivery de comidas orientais e tradicionais.</p>
             <p>Desenvolvido com React JS.</p>
-            <button onClick={()=>{setProject3(!project3)}}>Voltar</button>
+            <div>
+              <button onClick={()=>{setProject3(!project3)}}>Voltar</button>
+              <button>Acessar</button>
+            </div>
           </S.Box>}
         </S.BoxProject>
 
@@ -61,7 +69,10 @@ export default function Projects(){
             <h4>Art</h4>
             <p>Art é um site fictício no qual a intenção é simular e divulgar artes e artitas.</p>
             <p>Desenvolvido com React JS.</p>
-            <button onClick={()=>{setProject4(!project4)}}>Voltar</button>
+            <div>
+              <button onClick={()=>{setProject4(!project4)}}>Voltar</button>
+              <button>Acessar</button>
+            </div>
           </S.Box>}
         </S.BoxProject>
 
@@ -73,7 +84,10 @@ export default function Projects(){
             <h4>Rachi</h4>
             <p>Rachi é um site sobre venda de planos de internet, sobre um provedor fictício.</p>
             <p>Desenvolvido com React JS.</p>
-            <button onClick={()=>{setProject5(!project5)}}>Voltar</button>
+            <div>
+              <button onClick={()=>{setProject5(!project5)}}>Voltar</button>
+              <button>Acessar</button>
+            </div>
           </S.Box>}
         </S.BoxProject>
 
@@ -85,7 +99,10 @@ export default function Projects(){
               <h4>N/A</h4>
               <p>###</p>
               <p>Desenvolvido com React JS.</p>
-              <button onClick={()=>{setProject6(!project6)}}>Voltar</button>
+              <div>
+                <button onClick={()=>{setProject6(!project6)}}>Voltar</button>
+                <button>Acessar</button>
+              </div>
             </S.Box>}
         </S.BoxProject>
       </S.ProjectsSection>

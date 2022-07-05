@@ -1,12 +1,9 @@
 import styled from 'styled-components';
 
 export const Menu = styled.section`
-  z-index: 1;
-
   position: absolute;
   right: 0;
   top: 80px;
-  z-index: -1;
   background-color: #171717;
   width: 100%;
   height: 80px;

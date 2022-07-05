@@ -16,8 +16,10 @@ export default function About(){
         <S.Infos>
           <S.TitleBox>Olá, eu sou<br/>Nicolas Goulart (:</S.TitleBox>
           <S.TextBox>Desenvolvedor Front-End Júnior</S.TextBox>
-          <a href="https://github.com/NormaN5001" target="_BLANK" rel="noreferrer"><S.GitButton>Github</S.GitButton></a>
-          <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5532984770122&text=Olá." target="_BLANK" rel="noreferrer"><S.WhatsAppButton>WhatsApp</S.WhatsAppButton></a>
+          <S.Buttons>
+            <a href="https://github.com/NormaN5001" target="_BLANK" rel="noreferrer"><S.GitButton>Github</S.GitButton></a>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5532984770122&text=Olá." target="_BLANK" rel="noreferrer"><S.WhatsAppButton>WhatsApp</S.WhatsAppButton></a>
+          </S.Buttons>
         </S.Infos>
         <S.Image>
           <S.MyPhoto src={MyPhotoImg} alt="Uma foto do dono do portfólio."/>

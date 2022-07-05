@@ -10,7 +10,7 @@ export default function Skills(){
 
 
   return(
-    <>
+    <S.Container>
       <S.SkillsSection>
         <S.TitleBox>Minhas skills</S.TitleBox>
         <S.SkillsImage>
@@ -28,6 +28,6 @@ export default function Skills(){
         .</S.BackgroundImg>
         </S.SkillsImage>
       </S.SkillsSection>
-    </>
+    </S.Container>
   )
 }

@@ -62,4 +62,5 @@ export const LineBox = styled.section`
   position: absolute;
   right: 30px;
   top: 26px;
+  z-index: 1;
 `
