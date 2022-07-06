@@ -10,7 +10,10 @@ export const Container = styled.section`
 `
 export const SkillsSection = styled.section`
   margin-top: 110px;
-  width: 80%;
+  width: 100%;
+  @media(max-width: 550px){
+    width: 80%;
+  }
 `
 export const TitleBox = styled.h3`
   text-align: center;
