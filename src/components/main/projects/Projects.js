@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import * as S from './Styles'
 
+import ObjetivosSusImg from '../../../img/project-objetivos-sustentaveis.png'
 
 export default function Projects(){
 
@@ -17,16 +18,18 @@ export default function Projects(){
       <S.TitleBox>Projetos</S.TitleBox>
       <S.ProjectsSection>
         <S.BoxProject>
-          <section></section>
+          <section>
+            <img src={ObjetivosSusImg} alt="Image do site Objetivos Sustentáveis"/>
+          </section>
           <h3>Objetivos sustentáveis</h3>
           <button onClick={()=>{setProject1(!project1)}}>Informações</button>
           {project1 && <S.Box>
             <h4>Objetivos sustentáveis</h4>
-            <p>N/A</p>
+            <p>Projeto criado com o intuito de listar os Objetivos Sustentáveis para melhorar a qualidade de vida e convivência em Santana do Deserto - Vai na Web.</p>
             <p>Desenvolvido com React JS.</p>
             <div>
               <button onClick={()=>{setProject1(!project1)}}>Voltar</button>
-              <button>Acessar</button>
+              <button><a href="https://objetivos-sustentaveis.netlify.app" target="Blank">Acessar</a></button>
             </div>
           </S.Box>}
         </S.BoxProject>

@@ -29,16 +29,23 @@ export const BoxProject = styled.div`
   border: solid #333333 1px;
 
   section{
-    cursor: pointer;
     background-color: #181818;
     width: 390px;
     height: 150px;
     margin-top: 20px;
+    img{
+      width: 390px;
+      height: 160px;
+      @media(max-width: 455px){
+        width: 280px;
+        height: 120px;
+      }
+    }
     @media(max-width: 455px){
     margin-top: 10px;
     width: 280px;
     height: 120px;
-  }
+    }
   }
   h3{
     color: #f9f9f9;
