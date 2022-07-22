@@ -29,13 +29,14 @@ export const BoxProject = styled.div`
   border: solid #333333 1px;
 
   section{
-    background-color: #181818;
+    display: flex;
+    justify-content: center;
     width: 390px;
     height: 150px;
-    margin-top: 20px;
+    margin-top: 15px;
     img{
-      width: 390px;
-      height: 160px;
+      width: 350px;
+      height: 170px;
       @media(max-width: 455px){
         width: 280px;
         height: 120px;
